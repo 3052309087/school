@@ -5,7 +5,7 @@ int main()
     float a, b, c, d;
     printf("请输入a+bi乘c+di分别的实部和虚部 ", a, b, c, d);
     scanf("%f%f%f%f", &a, &b, &c, &d);
-      if (fabs(a*c - b*d) < 0.000001 && fabs(a*d + b*c) < 0.000001)
+      if (fabs(a*c - b*d) < 0.000001 && fabs(a*d + b*c) < 0.000001)//判断是否为o
     {
         printf("复数乘法：0\n");
         return 0;
