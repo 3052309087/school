@@ -67,7 +67,7 @@ void qvkuan(int *str,int *str2)
 
 void chaxun(int *str,int *str2)
 {
-    int a, b, c;
+    int a;
     printf("请输入你的账户");
     scanf("%d", &a);
     for (int i = 0; str[i]!= 0; i++)
@@ -85,7 +85,7 @@ void chaxun(int *str,int *str2)
 
 void zhanghu(int *p,int *str)
 {
-    int a, b, c;
+    int a, b;
     printf("请输入你要添加的账户");
     scanf("%d", &a);
     b = *p;
@@ -105,7 +105,6 @@ int main()
     while (1)
     {   
         int a;
-        int b;
         printf("1.存款\n");
         printf("2.取款\n");
         printf("3.查询余额\n");
