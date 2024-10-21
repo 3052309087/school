@@ -13,6 +13,11 @@ void add(int *str, int *str2)
         {
             printf("请输入金额");
             scanf("%d", &b);
+            if (b < 0)
+            {
+                printf("输入错误\n");
+                return;
+            }
             c = str2[i] + b;
             str2[i] = c;
             printf("存款成功\n");
@@ -36,6 +41,13 @@ void qvkuan(int *str,int *str2)
         {
             printf("请输入金额");
             scanf("%d", &b);
+            if (b < 0)
+            {
+                printf("输入错误\n");
+                return;
+            }
+            
+            
             if (b > str2[i])
             {
                 printf("余额不足\n");
