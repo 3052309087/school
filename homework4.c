@@ -3,7 +3,7 @@
 int main()
 {  
     printf("请输入你要输入的数字个数 ");
-    int b;
+    int b = 0;
     int ii = 0;
     int e = 0;
     int f = 0;
@@ -39,8 +39,14 @@ int main()
     else{
         ii++;
         }
+
+
   
 }//冒个泡
+for (int i = 0; i < b; i++)
+{
+    printf("%d ",len1[i]);
+}
     system("pause");
     return 0;
 
