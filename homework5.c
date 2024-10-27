@@ -16,7 +16,7 @@ int main()
     printf("第%d次移动，青蛙a在%d，青蛙b在%d\n",count,a,b);
    }
    printf("共经过%d次移动，青蛙才会相遇。",count);
-   
+   system("pause");
    return 0;
 }
 

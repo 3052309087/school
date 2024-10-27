@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/30523/Desktop/school/school",
-      "program": "c:/Users/30523/Desktop/school/school/build/Debug/outDebug",
+      "cwd": "c:/Users/30523/Desktop/C语言 实验2 scanf参考代码/C语言 实验2 scanf参考代码",
+      "program": "c:/Users/30523/Desktop/C语言 实验2 scanf参考代码/C语言 实验2 scanf参考代码/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
